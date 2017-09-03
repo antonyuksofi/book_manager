@@ -9,9 +9,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Created by София on 25.08.2017.
- */
 @Repository
 public class BookDaoImpl implements BookDao {
     private static final Logger logger = LoggerFactory.getLogger(BookDaoImpl.class);

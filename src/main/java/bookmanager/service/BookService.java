@@ -4,9 +4,6 @@ import bookmanager.model.Book;
 
 import java.util.List;
 
-/**
- * Created by София on 28.08.2017.
- */
 public interface BookService {
     public void addBook(Book book);
 

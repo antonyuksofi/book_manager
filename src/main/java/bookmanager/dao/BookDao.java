@@ -4,9 +4,6 @@ import bookmanager.model.Book;
 
 import java.util.List;
 
-/**
- * Created by София on 25.08.2017.
- */
 public interface BookDao {
     public void addBook(Book book);
 

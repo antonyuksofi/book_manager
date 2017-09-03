@@ -2,9 +2,6 @@ package bookmanager.model;
 
 import javax.persistence.*;
 
-/**
- * Created by София on 25.08.2017.
- */
 @Entity
 @Table(name = "books")
 public class Book {
