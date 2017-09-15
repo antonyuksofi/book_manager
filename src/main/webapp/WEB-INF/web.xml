@@ -17,9 +17,12 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
+    <!--works with this and without-->
+    <!--
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>/src/main/webapp/WEB-INF/spring-servlet.xml</param-value>
+        <param-value>/WEB-INF/spring-servlet.xml</param-value>
     </context-param>
+    -->
 
 </web-app>
